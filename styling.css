@@ -1,0 +1,189 @@
+
+#container {
+    width:1050px;
+    margin: 0 auto;
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px
+}
+
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E954);
+    width: 400px;
+    Height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    height: 28px;
+    padding: 5px;
+    font-size: 15px;
+    color: #F09C2D;
+    background-color: white;
+    background-image: url(Images/search.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.submitButton{
+    float: right;
+    padding: 5px;
+    color: white;
+    background: #A751D6;
+    font-weight: bold;
+    font-size: 15px
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#F7F493, #D6D635);
+    padding: 7px 0px
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #5d12e7;
+    line-height: 30px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #B313DB;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    FLOAT: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid #5d12e7;
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BA, #B7E953);
+    padding: 30px;
+    margin: 17px 0px;
+}
+
+#introduction h3{
+    font-size: 45px;
+    font-weight: normal;
+    color: #31690E;
+}
+
+#introduction p{
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: solid 1px #BAF46F;
+    border-radius: 20px;
+    padding: 17px 30px
+}
+
+.sidebar h3{
+    color: #B314DB;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #5d12e7;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color: #B313DB;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#leftSideBar{
+    float: left;
+}
+
+#rightSideBar{
+    float: right;
+}
+
+#leftSideBar ul li{
+    padding-bottom: 7px;
+    list-style-image: url(Images/arrow%20bullet.png);
+    padding-left: 10px;
+}
+
+#leftSideBar ul{
+    padding-top: 8px;
+}
+
+#rightSideBar ul li{
+    list-style-image: url(Images/tICK%20bULLET.png);
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+#rightSideBar ul{
+    margin-left: 30px;
+    margin-bottom: 45px;
+}
+
+#rightSideBar ul lI:first-child{
+    padding-top: 0px;
+}
+
+#footer p{
+    background: linear-gradient(#F7F493, #D6D635);
+    padding: 30px
+}
+
+#footer p a{
+    text-decoration: none;
+    color: #5d12e7;
+}
